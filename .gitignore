@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 .vscode
 .DS_Store
+=======
+.vscode
+.DS_Store
+>>>>>>> 36179790ef80907bbd367ddfac39a672a8fc4992
 *.pyc
