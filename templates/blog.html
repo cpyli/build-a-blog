@@ -4,12 +4,12 @@
     <h1>List of Blog Posts</h1>
 
     {% for entry in entries %}
-    <nav>
-    <a href="/individual?id={{entry.id}}">{{entry.title}}</a>
-    </nav>
-    {{entry.body}}
-    <br>
-    <br>
+        <nav>
+            <a href="/individual?id={{ entry.id }}">{{ entry.title }}</a>
+        </nav>
+        {{ entry.body }}
+        <br>
+        <br>
     {% endfor %}
 
 {% endblock %}
